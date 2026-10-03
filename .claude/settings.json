@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:query-stove-76996192.figma.site)",
+      "Bash(npx -y prettier@3 --parser babel appcode.js)",
+      "Bash(pkill -f \"vite preview --port 4173\")",
+      "Read(//Users/umeshsharma/Downloads/**)",
+      "Bash(mkdir -p /Users/umeshsharma/Desktop/Personal/Protofolio/public && cp /Users/umeshsharma/Downloads/Applied_ai.pdf /Users/umeshsharma/Desktop/Personal/Protofolio/public/Umesh_Sharma_Resume.pdf && ls -la /Users/umeshsharma/Desktop/Personal/Protofolio/public)",
+      "Bash(sed -i '' 's/.foot { margin-top: auto; display: flex; gap: 12px; }/.foot { margin-top: auto; display: flex; gap: 12px; align-items: flex-start; } .tag { line-height: 1.2; display: inline-block; }/; s/font-size: 132px/font-size: 124px/' og.html)",
+      "Bash(sed -i '' \"s#^const svg.*##; s#^await p.setViewport\\({ width: 180.*##; s#^await p.setContent.*##; s#^await p.screenshot\\({ path: pub + '/apple-touch-icon.png' }\\)##\" og.mjs)",
+      "Bash(node og.mjs)",
+      "Bash(sed -i '' 's/\\\\.tag\\\\.a {/.tag.acc {/; s/class=\"tag a\"/class=\"tag acc\"/g' og.html)",
+      "Bash(lsof -iTCP -sTCP:LISTEN -P)",
+      "Bash(open http://localhost:5173)",
+      "Bash(grep -nE '#[0-9a-fA-F]{3,8}|rgba?\\\\\\(' src/index.css)",
+      "Bash(awk -F: '$1>75')",
+      "WebFetch(domain:www.val.town)",
+      "Bash(curl -s -m 20 -o /tmp/ar.txt -w 'status=%{http_code} type=%{content_type}\\\\n' https://agentrouter.org/v1/models)",
+      "Bash(curl -s -m 20 -o /tmp/ar2.txt -w 'status=%{http_code}\\\\n' -X POST https://agentrouter.org/v1/chat/completions -H 'Content-Type: application/json' -H 'Authorization: Bearer test' -d '{\"model\":\"gpt-4o-mini\",\"messages\":[{\"role\":\"user\",\"content\":\"hi\"}]}')",
+      "Bash(pkill -f \"vite --port 5174\")",
+      "Bash(pkill -f \"mock.mjs\")",
+      "Bash(python3 -c ' *)",
+      "Bash(gh auth *)",
+      "Bash(curl -s \"https://api.github.com/users/UmeshGit125/repos?per_page=100&sort=updated\")"
+    ],
+    "additionalDirectories": [
+      "/Users/umeshsharma/Downloads"
+    ]
+  }
+}

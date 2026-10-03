@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1a2c"/>
+      <stop offset="1" stop-color="#0c0c16"/>
+    </linearGradient>
+    <linearGradient id="fig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3a54"/>
+      <stop offset="1" stop-color="#22223a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.38" r="0.5">
+      <stop offset="0" stop-color="#00c896" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00c896" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <rect width="400" height="500" fill="url(#glow)"/>
+  <circle cx="200" cy="190" r="78" fill="url(#fig)"/>
+  <path d="M60 500c0-96 63-160 140-160s140 64 140 160z" fill="url(#fig)"/>
+  <text x="200" y="470" text-anchor="middle" font-family="monospace" font-size="13" letter-spacing="3" fill="#5a5870">PHOTO COMING SOON</text>
+</svg>
